@@ -1,0 +1,26 @@
+.sections {
+	display: flex;
+	justify-content: center;
+	border-bottom: 1px solid grey;
+}
+
+.sections ul {
+	display: flex;
+	padding: 5px;
+}
+
+.sections li {
+	margin: 5px;
+  font-family: $sans-serif;
+  cursor: pointer;
+  text-transform: capitalize;
+  text-decoration: underline;
+}
+
+.sections li:hover {
+  background-color: $light-gray;
+}
+
+.sections a {
+	font-size: 11px;
+}
